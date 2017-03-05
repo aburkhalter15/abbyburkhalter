@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Abby Burkhalter's Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!--jQuery for portfolio show and hide functions-->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/portfolioFunctions.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html">Abby Burkhalter</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" id="bookmark">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Abby Burkhalter's Portfolio
+                    <small>Front End Web Developer</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+        <div class="minHeight" id="wayfinderKiosk">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/wayfinder.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Wayfinder Kiosk</h3>
+                <p>Developing a Wayfinder kiosk was an internship opportunity that I had with working for UITS at Indiana Univeristy Kokomo. The wayfinder kiosk will be used by visitors to find people, places, or accessibility tools on campus. While the HTML and CSS are the framework that holds the wayfinder together, I used jQuery heavily for show and hide functions. The homescreen consists of three choices. A user may choose to search for people, places, or accessibility. If a user is searching for a person, they may choose people and they are sent to a list of alphabet letters. The user is told to choose the first letter of the last name of the person they are looking for. jQuery is used to show everyone who's last name begins with the chosen letter. When the user selects a name from the list presented, jQuery is used to show that person's contact information. This part was slightly more difficult because instead of simply showing something that was hidden, I pulled in a section from a completely different page. PHP is used to pull the persons that are being searched contact information from a database. </p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>jQuery</li>
+                        <ul>
+                            <li>Show and hide functions</li>
+                        </ul>
+                    <li>PHP</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="uitsHomepage">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/uitsHomepage.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>UITS Kokomo Homepage</h3>
+                <p>I had the pleasure of being a part of the IU Kokomo Web Team for nearly two years during my time as a student there. While working for them I was able to gain experience working in the field of web development. I was given many projects where a page had been designed and it was my job to turn that design into code and to make it accessible. For the UITS homepage, I relatively positioned each image on the page and then absolutely position the anchor tags over them. I did this to implement a hover effect over each image.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Hover Effects</li>
+                    <li>Relative Positioning</li>
+                    <li>Contact Form</li>
+                    <li>CMS</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="iukAbout">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/croppedAboutPage.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>IU Kokomo About page</h3>
+                <p>During my time as a web technician on the IU Kokomo web team, I was given many projects where the goal was to take a designed web page and turn it into HTML. For the IU Kokomo about page, I had to turn a brochure into HTML. I took each row and relatively positioned them one on top of the other. Then I absolutely positioned the items inside of the rows. I followed the spacing around the text in the design very closely when I positioned each item, which is why I used absolute positioning on the items within the relatively positioned containers. I provided alternative text when it was needed for the images to make the page accessible. I also modified the design of the web page for an ipad version and a mobile version. In the responsive versions, I got rid of unnecessary images. </p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Each row a relative positioned container</li>
+                    <li>Absolute positioning on items within containers</li>
+                    <li>Attention to detail- Followed design closely</li>
+                    <li>Accessible</li>
+                    <li>Responsive</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="twipWebsite">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/TWIP.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>TWIP</h3>
+                <p>Since early 2015 I have been working for a company called Foxglove Digital Information Systems. We have been developing a social network for travelers, called TWIP. The first task I was given was to make all the heading sizes on the website responsive, because the site had already been coded by someone else and the design did not have consistency. After standardizing fonts and sizes, I was then tasked with making the website responsive. We decided to use the bootstrap grid system because it is efficient. I gained a lot of experience working with bootstrap on this website and became familiar with many of the CSS classes that bootstrap uses aside from the grid system.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Responsive Design</li>
+                    <li>Consistency</li>
+                    <li>Partials</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="libertyUniversity">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/LibertyUniversityOnline.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Liberty University Online</h3>
+                <p>Liberty University Online was a small project I took on for a friend who took on too many projects at once. The code on the website was very outdated, and there were over a thousand lines of CSS. I recoded the site with HTML5, and because I reused CSS classes, I cut the amount of CSS lines from over a thousand to a little over 300 lines. The site included a small contact form, on which I used a show and hide function because it was a two step form. When the user finished filling in the first fields, they hit a next butto to show the rest of the fields of the form before submitting.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>jQuery</li>
+                    <ul>
+                        <li>Show and hide function</li>
+                    </ul>
+                    <li>No redesign- refreshed code</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="dogFormJavascript">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/dogFormJavascript.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Javascript Course</h3>
+                <p>I picked up very basic Javascript skills from a Javascript course I took at IU Kokomo. For this particular function, a user takes a quiz to see if they know what kind of dog is displayed in an image. I declared 5 variables, one for the quiz, two for each correct answer, and two for the outputs. I used if statements to determine the output of the function. If the user chooses akita in the first question, then the output is correct. Else if they choose anything else, the output is wrong. Same concept for the second question, only the correct answer for that one is beagle.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Variables</li>
+                    <li>If Statements</li>
+                    <li>Use of Form</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="twipEmail">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/TWIPEmail.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Twip Email</h3>
+                <p>For this project, my job was to code an HTML email using tables. I took the image, sliced it in photo shop, and put the slices in a table with HTML. To make the email accessible, I provided alternate text for every word in the image.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Deliver what the client wants</li>
+                    <li>Sliced image in photoshop</li>
+                    <li>Table positioning</li>
+                    <li>Accessible</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="foxgloveDigital">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/FoxgloveDigitalIS.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Foxglove Digital Information Systems</h3>
+                <p>I spent almost two years working on the IU Kokomo web team, and then switched to Foxglove Digital after completing an internship with UITS. Working for two different employers in the field of web development through college has allowed me to gain more experience and learn new skills such as Foundation. Boostrap, Github, WCMS, and experience working with different personalities.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Work Experience</li>
+                    <li>Bootstrap</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="githubProfile">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/githubProfile.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>aburkhalter15's Github Profile</h3>
+                <p>Through working with Foxglove Digital IS, I gained experience using Github. Github is a wonderful tool for teams to use that are working on projects and are making multiple changes at a time to the same project. Contributors push their code to a repository and as long as there are no conflicts, Github merges the code. When conflicts arise, a use can go in and select which changes to implement.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Teamwork made simple</li>
+                    <li>Contributor</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="kokomoCivicTheatre">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/kokomoCivicTheatre.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Kokomo Civic Theatre</h3>
+                <p>For a class project, I chose a non profit organization to recreate their website. I chose the Kokomo Civic Theatre website because I was interested in creating a fun, dramatic website. This was the most fun I have ever had designing a website. The images I chose were picked because they were fun, and that was fitting for this website. The site is not being utilized however, so the forms are not currently working, but it can be <a href="/portfolio/kokomoCivicTheatre/index.html">viewed on my website.</a></p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Fun Website Design</li>
+                    <li>Responsive</li>
+                    <li>Class Project</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="minHeight" id="prosper">
+
+            <div class="col-md-8 col-sm-12">
+                <img class="img-responsive" src="/img/portfolioItems/prosper.png" alt="">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Prosper Economic Development Corporation</h3>
+                <p>At Foxglove Digital IS, I was tasked with the front end development for an Economic Development Corporation for Prosper, Texas. For this website, I used the Bootstrap framework to develop the web design into a functioning website. I also had hands on experience using Blade templating engine.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Github</li>
+                    <li>Laravel</li>
+                </ul>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Portfolio Items</h3>
+            </div>
+            <!-- one row-->
+            <div class="col-sm-3 col-xs-6">
+                <a class="wayfinderKiosk" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/wayfinder.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class ="uitsHomepage" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/UITSHomepageCropped.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class="iukAbout" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/croppedAboutPage.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class="twipWebsite" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/TWIPCropped.png" alt="">
+                </a>
+            </div>
+
+            <!-- one row-->
+            <div class="col-sm-3 col-xs-6">
+                <a class="twipEmail" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/TWIPEmailCropped.png" alt="">
+                </a>
+            </div>
+            
+            <div class="col-sm-3 col-xs-6">
+                <a class="libertyUniversity" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/LUOCropped.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class="dogFormJavascript" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/dogFormJavascript.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class="foxgloveDigital" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/FDIS.png" alt="">
+                </a>
+            </div>
+
+            <!-- one row-->
+            <div class="col-sm-3 col-xs-6">
+                <a class="githubProfile" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/githubProfile.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class="kokomoCivicTheatre" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/KCTCropped.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a class="prosper" href="#bookmark">
+                    <img class="img-responsive portfolio-item img-thumbnail" src="/img/portfolioItems/prosperCropped.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="index.html/#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="index.html/#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Abby Burkhalter 2015. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
