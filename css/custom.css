@@ -1,0 +1,448 @@
+body {
+	font-family:Verdana;
+}
+
+.navbar {
+    min-height:80px !important;
+}
+
+.navbar-brand {
+    text-align:center;
+}
+
+.navbar-right {
+    margin-right:5px;
+    margin-top:15px;
+    font-size:12px;
+    font-weight:100;
+}
+
+.secondTitle {
+    font-style:italic;
+    margin: 21px 0 0px 15px;
+    position: relative;
+    float: left;
+    color: #777;
+}
+
+.secondTitle:hover {
+    text-decoration:none;
+}
+
+.hrNav {
+    width: 2px;
+    height: 45px;
+    background: grey;
+    margin: 10px 0px 0px 115px;
+    position: absolute;
+}
+
+.hrNav-right {
+    margin: 0px 0px 0px 0px;
+}
+
+.socMediaIcons {
+    font-size:20px;
+}
+
+.hero {
+	height:100%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/dark-apple-desk-office-technology-large.png) no-repeat center center;
+    background-size: cover;
+}
+
+.hero-message {
+	margin:25% 0 0 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.hero-message h1 {
+    font-size: 5em;
+}
+
+.hero-message h3 {
+    font-size: 3em;
+}
+
+.container {
+    padding:80px 0 80px 0;
+}
+
+.section-heading {
+    text-align:center;
+}
+
+.sectionDescription, .sectionMarker {
+    font-size:14px;
+    text-align:center;
+    font-weight:100;
+    margin:0 0 50px 0;
+}
+
+.sectionMarker {
+    margin:-15px 0 15px 0 !important;
+}
+
+.fullWidthImg {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.hoverDropDown {
+    color: black;
+}
+
+.hoverDropDown:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.fullWidthHr {
+    width:100%;
+    margin:10px 0 10px 0;
+}
+
+h3.year {
+    float:left;
+    margin: 40px 5px 0px 30px;
+}
+
+h4.month {
+    float:left;
+    margin: 45px 5px 0px 5px;
+}
+
+.toggleMoreInfo {
+    color:black;
+}
+
+.toggleMoreInfo:hover {
+    color:grey;
+    cursor:pointer;
+}
+
+.toggleMoreInfo p, .toggleMoreInfo h4, .toggleMoreInfo ul {
+	padding:5px 25px 10px;
+}
+
+.toggleMoreInfo ul li {
+	margin:10px;
+}
+
+.sectionDivider {
+    position:absolute;
+    height:80%;
+}
+
+.referenceStatement {
+    position:absolute;
+    color:white;
+    text-align:center;
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    margin: 120px 0 5px 0;
+}
+
+.referenceName {
+    position:absolute;
+    color:white;
+    text-align:center;
+    margin: 270px 0 5px 0;
+}
+
+.portfolioRow {
+    background:black;
+}
+
+.portfolioRow a img:hover {
+    opacity:.7;
+}
+
+.moreProjects {
+    color:white;
+}
+
+a.moreProjects:hover {
+    color:white;
+}
+
+.form-control {
+    margin:0 0 45px 0;
+    border-radius:0;
+    height:60px;
+}
+
+.btn {
+    border-radius:0;
+    width:100%;
+    background:#C44741;
+    color:white;
+    text-align:left;
+    height:50px;
+}
+
+.btn:hover {
+    background:#C44741;
+    color:white;
+    opacity:0.7;
+}
+
+.contactMe {
+    font-size:20px;
+    font-weight:100;
+    color:#777;
+}
+
+.socMedia {
+    list-style-type:none;
+}
+
+.socMedia li {
+    text-decoration:none;
+    padding:0 10px;
+    float:left;
+    color:#777;
+}
+
+.footerSocMedia {
+	list-style-type:none;
+}
+
+.footerSocMedia li {
+    float:right;
+    text-decoration:none;
+    padding:0 10px;
+}
+
+.footerSocMedia li a {
+    color:#777;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+footer .container {
+    padding:0 !important;
+}
+
+
+
+.mycirc{
+                position: absolute;
+                overflow: hidden;
+                /*size of the inner circle*/
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                /*this top/left should be half the width/height difference between the wrap div and the circle
+                its position is relative to the parent circWrap, so you should only change this value if you change sizes*/
+                top:3px;
+                left:3px;
+                background:#f8f8f8;
+            }
+            
+            #cW1{
+                top:3px;
+            }
+            
+            #cW2{
+                top:3px;
+                left:15%;
+            }
+            
+            #cW3{
+                top:3px;
+                left:30%;
+            }
+
+            #cW4{
+                top:3px;
+                left:45%;
+            }
+            
+            /*position:absolute to move it around; the current width/height is 86px.
+            to do testing, comment out the overflow hidden to see how the box-shadow objects are moving around*/
+            .circWrap{
+                position:relative;
+                width:156px;
+                height:156px;
+                overflow: hidden;
+                border-radius: 50%;
+                
+            }
+
+            .circTitle {
+                text-align: center;
+                font-size: 16px;
+                line-height: 8em;
+            }
+            
+            /*i've built three different animations and three different states.
+            the first does a full animation, the second does about a 3/4 move with the final box-shadow not moving at all,
+            the third does about a 2/3rds state, so you can see how they run.
+            for a review on how the animation property works, search for it on w3schools*/
+
+            #circ1:hover{
+                animation: fullB .4s ease 1 forwards;
+            }
+            
+            #circ2:hover{
+                animation: three_quartB .4s ease 1 forwards;
+            }
+            
+            #circ3:hover{
+                animation: two_thirdsB .4s ease 1 forwards;
+            }
+
+            #circ4:hover{
+                animation: one_thirdB .4s ease 1 forwards;
+            }
+
+
+            /*this is a keyframes animation in CSS3. first run 'query' @keyframes. 
+            second, name the animation. third, each percentage is a stop point in full animation.
+            what we have here is four different circles that exist behind the mycirc div.
+            they start at 0% just outside the field of view of the circWrap object's overflow:hidden.
+            next the first box moves into view and the circle covers the top quarter of the border.
+            each box-shadow covers a counterclockwise quarter. notice the progression of the x,y location
+            to it's 'covered' state.*/
+            @keyframes fullB{
+                0% {
+                    box-shadow: 130px -130px 0 2px #E94E3D, -130px -130px 0 2px #E94E3D, -130px 130px 0 2px #E94E3D, 130px 130px 0 2px #E94E3D;
+                }
+                25% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -105px -105px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                50% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px 0px 0 2px #E94E3D, -105px 105px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                75% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px 0px 0 2px #E94E3D, 0px 100px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                100% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px 0px 0 2px #E94E3D, 0px 100px 0 2px #E94E3D, 105px 0px 0 2px #E94E3D;
+                } 
+            }
+            
+            @keyframes three_quartB{
+                0% {
+                    box-shadow: 130px -130px 0 2px #E94E3D, -130px -130px 0 2px #E94E3D, -130px 130px 0 2px #E94E3D, 130px 130px 0 2px #E94E3D;
+                }
+                25% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -105px -105px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                50% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px 0px 0 2px #E94E3D, -105px 105px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                75% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px 0px 0 2px #E94E3D, 0px 100px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                100% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px 0px 0 2px #E94E3D, 0px 100px 0 2px #E94E3D, 105px 105px 0 2px #E94E3D;
+                } 
+            }
+            
+            @keyframes two_thirdsB{
+                0% {
+                    box-shadow: 130px -130px 0 2px #E94E3D, -130px -130px 0 2px #E94E3D, -130px 130px 0 2px #E94E3D, 130px 130px 0 2px #E94E3D;
+                }
+                25% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -105px -0px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                50% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px -0px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                75% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px -0px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                100% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -100px -0px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+            }
+                @keyframes one_thirdB{
+                0% {
+                    box-shadow: 130px -130px 0 2px #E94E3D, -130px -130px 0 2px #E94E3D, -130px 130px 0 2px #E94E3D, 130px 130px 0 2px #E94E3D;
+                }
+                25% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -125px -100px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                50% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -125px -25px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                75% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -125px -25px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                }
+                100% {
+                    box-shadow: 0 -100px 0 2px #E94E3D, -125px -25px 0 2px #E94E3D, -115px 115px 0 2px #E94E3D, 115px 115px 0 2px #E94E3D;
+                } 
+            }
+
+    @media (max-width:1009px) {
+
+            #cW1{
+                top:0px;
+                left:5%;
+            }
+            
+            #cW2{
+                top:-154px;
+                left:45%;
+            }
+            
+            #cW3{
+                top:-143px;
+                left:5%;
+            }
+
+            #cW4{
+                top:-303px;
+                left:45%;
+            }
+
+    }
+
+    @media (min-width: 992px) {
+      .show-for-desktop {
+        display:block;
+      }
+      .show-for-mobile {
+        display:none;
+      }
+
+    }
+
+@media (max-width: 991px) {
+  .show-for-desktop {
+    display:none;
+  }
+  .show-for-mobile {
+    display:block;
+  }
+    
+@media (max-width:768px) {
+	.hrNav {
+		display:none;
+	}
+	.carousel {
+		display:none;
+	}
+
+    h2.companyName {
+        margin:30px 5px 0px 0px;
+    }
+
+    h3.year {
+        float:left;
+        margin: 0px 5px 0px 0px;
+    }
+
+    h4.month {
+        float:left;
+        margin: 0px 5px 0px 0px;
+    }
+}
